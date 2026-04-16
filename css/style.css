@@ -1,0 +1,208 @@
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #222222;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #d9d9d9;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav li {
+  margin: 10px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  padding: 8px 12px;
+  display: inline-block;
+}
+
+nav a:hover,
+nav a.active {
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+main {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.hero,
+.page-section,
+.video-section,
+.slider-section {
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  width: 250px;
+  margin: 15px auto;
+  border-radius: 10px;
+}
+
+video {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 15px auto;
+  border-radius: 10px;
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+#slider-image {
+  display: block;
+  width: 300px;
+  max-width: 100%;
+  margin: 15px auto;
+  border-radius: 10px;
+}
+
+.slider-buttons {
+  text-align: center;
+}
+
+.slider-buttons button {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 10px 16px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+.slider-buttons button:hover {
+  opacity: 0.85;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #d9d9d9;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    font-size: 17px;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  nav li {
+    margin: 0;
+  }
+
+  main {
+    width: 85%;
+  }
+
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  img {
+    width: 300px;
+  }
+
+  .hero,
+  .page-section,
+  .video-section,
+  .slider-section {
+    padding: 30px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    font-size: 18px;
+  }
+
+  header {
+    padding: 20px 0;
+  }
+
+  main {
+    width: 75%;
+  }
+
+  h1 {
+    font-size: 2.8rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  img {
+    width: 350px;
+  }
+
+  #slider-image {
+    width: 400px;
+  }
+
+  .hero,
+  .page-section,
+  .video-section,
+  .slider-section {
+    padding: 40px;
+  }
+}
